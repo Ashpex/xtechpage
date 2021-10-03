@@ -1,1 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@300;400;700&display=swap');
+
+body{
+    background: url("./images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Yaldevi', sans-serif;
+}
+
+.logo{
+    height: 100%;
+    flex: 1;
+}
+
+.logo img{
+    width: 40px;
+    box-shadow: 0px 0px 5px #ccc;
+    -moz-box-shadow: 0px 0px 5px #ccc;
+    -webkit-box-shadow: 0px 0px 5px #ccc;
+    -khtml-box-shadow: 0px 0px 5px #ccc;
+    border-radius: 50%;
+}
+
+.logo h1{
+    display: inline-block;
+    font-size: large;
+    font-weight: 100;
+    color: rgba(208,208,208,255);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.logo h1 b{
+    color: rgba(101,101,101,255);
+    font-weight: bold;
+}
+
+.landing{
+    background-color: rgba(244,244,244,255);
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#header{
+    color: rgba(209,209,209,255);
+}
+
+#header b{
+    color: rgba(110,110,110,255);
+    font-weight: bold;
+}
+
+#title {
+    font-weight: bold;
+}
+
+#imgCover {
+    width: 100%;
+    box-shadow: 0px 4px 5px #ccc;
+    -moz-box-shadow: 0px 4px 5px #ccc;
+    -webkit-box-shadow: 0px 4px 5px #ccc;
+    -khtml-box-shadow: 0px 4px 5px #ccc;
+}
+
+.btn-container{
+    display: flex;
+    color: rgba(150,221,255,255);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.btn-container img {
+    height: 85px;
+    align-self: flex-end;
+}
+
+.left {
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+  
+.left span {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.btn{
+    width: 50%;
+    padding: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.4);
+    color: rgba(55,86,127,255);
+    transition: all 0.3s ease 0s;
+    background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%);
+    
+}
