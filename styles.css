@@ -222,6 +222,7 @@ footer .map{
 }
 
 footer .row .col .social{
+    filter: grayscale(100%);
     width: 20px;
 }
 
