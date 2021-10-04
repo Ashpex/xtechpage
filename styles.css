@@ -129,20 +129,20 @@ body{
     font-weight: 100;
 }
 
-.col img{
+.feature img{
     padding-left: 10px;
     float: left;
     padding-bottom: 10rem;
     padding-right: 1rem;
 }
 
-.col .content {
+.feature .content {
     
     padding-left: 10px;
     font-size: small;
 }
 
-.col .content h5{
+.feature .content h5{
     font-weight: bold;
 }
 
@@ -162,6 +162,12 @@ body{
     border-top: 3px solid rgba(0, 0, 0, 0.5);
     border-left: 1.5px solid rgba(0, 0, 0, 0.5);
     border-right: 1.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.quote .author{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 .quote .author .arrow {
@@ -216,7 +222,7 @@ footer .map{
 }
 
 footer .row .col .social{
-    width:20px;
+    width: 20px;
 }
 
 #policy{
