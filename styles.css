@@ -145,3 +145,123 @@ body{
 .col .content h5{
     font-weight: bold;
 }
+
+.quote{
+    color:rgba(0, 0, 0, 0.4);
+}
+
+.quote .see{
+    color: rgba(102,154,222,255);
+
+}
+
+.quote .message{
+    background-color: rgba(239,239,239,255);
+    padding: 1rem;
+    border-radius: 5px;
+    border-top: 3px solid rgba(0, 0, 0, 0.5);
+    border-left: 1.5px solid rgba(0, 0, 0, 0.5);
+    border-right: 1.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.quote .author .arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-top: 20px solid rgba(226,226,226,255);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.right {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.right span {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+footer{
+    transform: translateY(-5px);
+    background-color: rgba(147,147,147,255);
+    color:black;
+    font-size: 10px;
+    padding-top: 3rem;
+    text-align: left;
+}
+
+.no-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+footer .row{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+footer .map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.copyright{
+    background-color: rgba(94,94,94,255);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+footer .row .col .social{
+    width:20px;
+}
+
+#policy{
+    float:right
+}
+
+@media (min-width: 992px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media (max-width:992px){
+    .col img{
+        padding-bottom: 0rem;
+    }
+
+    #title{
+        font-size: large;
+    }
+
+    .btn-container{
+        font-size: 15px;
+    }
+
+    .btn-container img{
+        height: 60px;
+    }
+    .btn{
+        width: 45%;
+        font-size: 15px;
+    }
+
+    footer{
+        font-size: 7px;
+    }
+
+    footer img{
+        width: 100px;
+    }
+
+    footer h6{
+        font-size: 15px;
+    }
+
+}
+
+
