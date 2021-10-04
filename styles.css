@@ -64,10 +64,12 @@ body{
 }
 
 #title {
+    padding-top: 2rem;
     font-weight: bold;
 }
 
 #imgCover {
+    padding-top: 1rem;
     width: 100%;
     box-shadow: 0px 4px 5px #ccc;
     -moz-box-shadow: 0px 4px 5px #ccc;
@@ -108,7 +110,38 @@ body{
     -moz-box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.4);
     box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.4);
     color: rgba(55,86,127,255);
-    transition: all 0.3s ease 0s;
-    background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%);
+    transition: all 0.5s ease 0s;
+    background-image: linear-gradient(0deg, rgb(0, 175, 255), rgb(200, 240, 250));
     
+}
+
+.btn:hover {
+    background-image: linear-gradient(0deg, rgb(0, 175, 255), rgb(200, 170, 260));
+    color: rgba(190, 230, 250, 255);
+    transform: translateY(10px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
+
+}
+
+.btn small{
+    font-weight: 100;
+}
+
+.col img{
+    padding-left: 10px;
+    float: left;
+    padding-bottom: 10rem;
+    padding-right: 1rem;
+}
+
+.col .content {
+    
+    padding-left: 10px;
+    font-size: small;
+}
+
+.col .content h5{
+    font-weight: bold;
 }
